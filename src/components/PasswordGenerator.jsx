@@ -49,7 +49,7 @@ const PasswordGenerator = () => {
           value={password}
         />
         <button
-          className="absolute right-2 bottom-2 text-light-green"
+          className="absolute right-2 bottom-2 text-blue-500"
           onClick={copyPasswordToClipboard}
         >
           <FaCopy />
@@ -58,7 +58,7 @@ const PasswordGenerator = () => {
       <div className="flex flex-col gap-4 bg-slate-800 p-4 min-w-screen w-[350px]">
         <div className="flex justify-between items-center">
           <p className="font-medium">Character Length</p>
-          <span className="text-2xl text-light-green">{length}</span>
+          <span className="text-2xl text-blue-500">{length}</span>
         </div>
         <input
           type="range"
